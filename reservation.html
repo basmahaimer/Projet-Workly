@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reservation - Workly</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <h1>Book Your Workspace</h1>
+  </header>
+
+  <!-- Reservation Form Section -->
+  <section class="reservation-section">
+    <form class="reservation-form" action="#" method="post">
+
+      <label for="fullName">
+        <i class='bx bx-user'></i> Full Name
+      </label>
+      <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required />
+
+      <label for="email">
+        <i class='bx bx-envelope'></i> Email Address
+      </label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+      <label for="date">
+        <i class='bx bx-calendar'></i> Reservation Date
+      </label>
+      <input type="date" id="date" name="date" required />
+
+      <label for="time">
+        <i class='bx bx-time'></i> Time
+      </label>
+      <input type="time" id="time" name="time" required />
+
+      <label for="spaceType">
+        <i class='bx bx-building-house'></i> Space Type
+      </label>
+      <select id="spaceType" name="spaceType">
+        <option value="open">Open Desk</option>
+        <option value="private">Private Office</option>
+        <option value="meeting">Meeting Room</option>
+      </select>
+
+      <button type="submit">
+        <i class='bx bx-check-circle'></i> Confirm Reservation
+      </button>
+
+    </form>
+  </section>
+
+  <!-- Footer -->
+   <footer class="footer">
+  <div class="footer-container">
+    <!-- Colonne gauche -->
+    <div class="footer-left">
+      <h2>Workly Coworking</h2>
+      <p class="slogan">A better space to work, connect and grow.</p>
+
+     <div class="footer-info">
+  <div>
+    <h4><i class='bx bx-map'></i> Address</h4>
+    <p>123 Workly Street, Casablanca</p>
+  </div>
+  <div>
+    <h4><i class='bx bx-phone'></i> Contact</h4>
+    <p>+212 612-345678</p>
+    <p>contact@workly.ma</p>
+  </div>
+  <div>
+    <h4><i class='bx bx-time'></i> Opening Hours</h4>
+    <p>Mon - Fri: 9:00 - 18:00</p>
+    <p>Sat: 10:00 - 14:00</p>
+  </div>
+</div>
+
+      <div class="footer-socials">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+
+      <div class="footer-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#mission">Our Mission</a>
+        <a href="#values">Our values</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#coworks">Coworks</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="newsletter">
+        <label for="email">Subscribe to our newsletter</label>
+        <input type="email" id="email" placeholder="Enter your email" />
+          <button id="subscribeBtn">Subscribe</button>
+        <div id="confirmationMessage" class="confirmation-message">
+    ✅ Thank you for subscribing!
+  </div>
+      </div>
+    </div>
+
+    <!-- Colonne droite : image -->
+    <div class="footer-right">
+      <img src="footer.jpeg" alt="Coworking photo" />
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Workly. All rights reserved.</p>
+  </div>
+  
+</footer>
+</body>
+</html>
+
